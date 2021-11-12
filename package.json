@@ -1,0 +1,22 @@
+{
+  "name": "analytics-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src -d dist",
+    "start": "babel-node src/index.js",
+    "prod": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Luis Albanese",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.15"
+  }
+}
